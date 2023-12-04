@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(token="your_bot_token")
 dp = Dispatcher(storage=MemoryStorage())
 dp.middleware.setup(LoggingMiddleware())
-
+token =''
 
 user_data = {}
 
